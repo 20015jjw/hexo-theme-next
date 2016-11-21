@@ -42,7 +42,3 @@
   </div>
 
 {% endblock %}
-
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}

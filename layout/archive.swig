@@ -49,11 +49,6 @@
 
 {% endblock %}
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
-
-
 {% block script_extra %}
   {% if theme.use_motion %}
     <script type="text/javascript" id="motion.page.archive">

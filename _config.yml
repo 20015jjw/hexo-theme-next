@@ -457,3 +457,14 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+# mathjax
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src:
+    config:
+  katex:
+    css:
+    js:
+    config:
